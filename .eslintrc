@@ -1,0 +1,27 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true,
+            "experimentalObjectRestSpread": true,
+            "classes": true
+        }
+    },
+    "plugins": [
+        "react-redux"
+    ],
+    "extends": [
+        "plugin:react/recommended",
+        "prettier"
+    ],
+    "rules": {
+        "require-yield": 0,
+        "no-console": 0
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    }
+}
